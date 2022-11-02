@@ -21,8 +21,10 @@ create the conda environment: jwst_navs with all the required modules
 
 Input observation parameters below in inputs
 
-Ensure file: jupkerns.tm and the directory: kernels are in the same
-directory as this script, then:	
+Ensure file: jupkerns.tm is in the same directory as the script
+
+Also ensure that the kernels listed in this file are downloaded and saved to adirectory: kernels,
+which should also be in the same directory as this script, then:	
 
 	conda activate jwst_navs
 	python -W ignore navigation2.py [directory where data is located]
