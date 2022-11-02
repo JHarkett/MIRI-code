@@ -6,6 +6,7 @@ For the JWST calibration pipeline:
   Use jwstpipeline_v4.py to combine the dither positions in stage 3
   Use jwstpipeline_singledither_v2.py to leave these dither positions seperate
 
+![Screenshot 2022-10-03 at 11 55 09](https://user-images.githubusercontent.com/93939955/199545504-b326b129-9e50-4ff5-819d-b50638a0ca13.png)
 
 To map the data using Pat Fry's code, use:
   navigation2.py
