@@ -1,3 +1,9 @@
+
+![map_zoom_c2_retrieval_mosaic_EPSC](https://user-images.githubusercontent.com/93939955/199546122-ad248436-b5b6-4249-bf34-2bec04f699e8.png)
+Composite mosaic of the MIRI MRS channel 2A data for Jupiter's Great Red Spot
+Data taken as part of JWST cycle 1 - GTO 1246 on 15/08/22
+
+
 # MIRI-code
 A collection of scripts to run the JWST calibration pipeline and visulise the data afterwards
 
@@ -6,7 +12,6 @@ For the JWST calibration pipeline:
   Use jwstpipeline_v4.py to combine the dither positions in stage 3
   Use jwstpipeline_singledither_v2.py to leave these dither positions seperate
 
-![Screenshot 2022-10-03 at 11 55 09](https://user-images.githubusercontent.com/93939955/199545504-b326b129-9e50-4ff5-819d-b50638a0ca13.png)
 
 To map the data using Pat Fry's code, use:
   navigation2.py
@@ -37,3 +42,8 @@ To generate spx files (for NEMESIS) using a txt file input (like the ones genera
 
 To generate contribution functions using the results of a NEMESIS forward model use:
   plot_contribution.py
+
+
+![map_zoom_c1_mosaic08](https://user-images.githubusercontent.com/93939955/199546409-93baee96-3da8-49c4-b30d-ec1f49ef909a.png)
+Composite mosaic of the MIRI MRS channel 1A data for Jupiter's Great Red Spot
+Data taken as part of JWST cycle 1 - GTO 1246 on 15/08/22
