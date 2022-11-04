@@ -29,7 +29,7 @@ It is advised to install and run the JWST pipeline module within an environment,
 To activate this environment, type
 	conda activate [name]
 
-Install the latest version of the jwst python module (1.8.3 as of 02/11/22) (also installs several other packages):
+Install the latest version of the jwst python module (1.8.2 as of 02/11/22) (also installs several other packages):
 	pip install --upgrade jwst
 
 This will take 5 mins to run.
@@ -102,7 +102,7 @@ import matplotlib.pyplot as plt
 from matplotlib import rc
 
 import jwst
-if jwst.__version__ != '1.8.0':
+if jwst.__version__ != '1.8.2':
 	warnings.warn(f'You are running version {jwst.__version__} of the jwst module\n the most recent is version 1.7.2 (As of 05/10/22)\n consider upgrading\n')
 
 from jwst.pipeline import Detector1Pipeline
