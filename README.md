@@ -1,6 +1,6 @@
 ![map_zoom_c2_retrieval_mosaic_EPSC](https://user-images.githubusercontent.com/93939955/199546122-ad248436-b5b6-4249-bf34-2bec04f699e8.png)
 
-Important
+# Important
 
 For MIRI MRS stripe correction: When spec3.cube_build.coord_system = 'ifualign': the pipeline aligns in the FOV of the IFU in the x direction. This may result in the 'horizontal' stripes still appearing diagonal. To make the stripes actually be horizontal (required for calibration) the IFU should be aligned in the y direction. To do this, replace ifu_cube.py under the directory path of form:
 
