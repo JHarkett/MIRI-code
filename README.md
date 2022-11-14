@@ -2,7 +2,7 @@
 
 # Important
 
-For MIRI MRS stripe correction: When spec3.cube_build.coord_system = 'ifualign': the pipeline aligns in the FOV of the IFU in the x direction. This may result in the 'horizontal' stripes still appearing diagonal. To make the stripes actually be horizontal (required for calibration) the IFU should be aligned in the y direction. To do this, replace ifu_cube.py under the directory path of form:
+For MIRI MRS stripe correction: When spec3.cube_build.coord_system = 'ifualign': the pipeline aligns in the FOV of the IFU in the y direction. This may result in the 'horizontal' stripes still appearing diagonal. To make the stripes actually be horizontal (required for calibration) the IFU should be aligned in the x direction. To do this, replace ifu_cube.py under the directory path of form:
 
 /opt/anaconda3/envs/jwst/lib/python3.10/site-packages/jwst/cube_build
 
