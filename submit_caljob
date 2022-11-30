@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+#PBS -N Calibrate_Bands
+#PBS -l walltime=5:00:00
+#PBS -l vmem=8gb
+#PBS -l nodes=1:ppn=1
+#PBS -t 1-1
+export PATH=~/bin/ifort:$PATH
+cd $PBS_O_WORKDIR
+python correct_spaxel.py
