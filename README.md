@@ -47,5 +47,8 @@ To generate spx files (for NEMESIS) using a txt file input (like the ones genera
 To generate contribution functions using the results of a NEMESIS forward model use:
   - plot_contribution.py
 
+# Post-pipeline calibration
+To calibrate wave-cal offsets and generate and apply flat-fields, refer to the post_pipeline directory and the instructions:
+  -post_pipeline/wave_cal_offset_instructions.docx
 
 ![map_zoom_c1_mosaic08](https://user-images.githubusercontent.com/93939955/199546409-93baee96-3da8-49c4-b30d-ec1f49ef909a.png)
